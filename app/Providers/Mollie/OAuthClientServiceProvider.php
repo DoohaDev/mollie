@@ -16,7 +16,7 @@ class OAuthClientServiceProvider extends ServiceProvider
             $client = new Mollie([
                 'clientId' => env('MOLLIE_CLIENT_ID'),
                 'clientSecret' => env('MOLLIE_CLIENT_SECRET'),
-                'redirectUri' => env('MOLLIE_API_URL').'/settings/payment/oauth/return',
+                'redirectUri' => env('APP_URL').'/settings/payment/oauth/return',
                 'verify' => 'false',
             ]);
 
