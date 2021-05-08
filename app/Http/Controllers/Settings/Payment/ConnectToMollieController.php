@@ -33,8 +33,6 @@ class ConnectToMollieController extends Controller
                 ->with('message', $e->getMessage());
         }
 
-        dd($authLink);
-
         return view('settings.payment.connect', [
             'authLink' => $authLink
         ]);
