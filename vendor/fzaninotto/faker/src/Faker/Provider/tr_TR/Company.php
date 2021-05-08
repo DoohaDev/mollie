@@ -66,7 +66,7 @@ class Company extends \Faker\Provider\Company
         'Lobici', 'Lokantacı', 'Lokman', 'Lostracı', 'Madenci', 'Makastar', 'Makine mühendisi',
         'Makine zabiti', 'Makyajcı', 'Mali hizmetler uzmanı', 'Manastır baş rahibesi',
         'Manifaturacı', 'Manikürcü', 'Masör', 'Matematikçi', 'Memur', 'Mermerci',
-        'Meteoroloji uzmanı', 'Misyoner', 'Model', 'Modelci', 'Modelist', 'Montajcı', 'Montör',
+        'Meteoroloji uzmanı', 'Misyoner', 'Models', 'Modelci', 'Modelist', 'Montajcı', 'Montör',
         'Muallim', 'Muhafız', 'Mumyalayıcı', 'Müzik yönetmeni', 'Müşavir', 'Nalbant', 'Nalbur',
         'Oduncu', 'Orgcu', 'Ornitolog', 'Oto elektrikçisi', 'Oto lastik tamircisi', 'Oyuncakçı',
         'Oyuncu', 'Ön muhasebe yardımcı elemanı', 'Ön muhasebeci', 'Öğretim elemanı',

@@ -13,7 +13,7 @@ class OAuthErrorController
     /**
      * @var AuthenticatedUserLoader
      */
-    private $userLoader;
+    private AuthenticatedUserLoader $userLoader;
 
     public function __construct(AuthenticatedUserLoader $userLoader)
     {

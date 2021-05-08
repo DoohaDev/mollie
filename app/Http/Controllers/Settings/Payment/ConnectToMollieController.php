@@ -11,10 +11,10 @@ use Illuminate\Http\Request;
 class ConnectToMollieController extends Controller
 {
     /** @var AuthorizationLinkService */
-    private $authorizeService;
+    private AuthorizationLinkService $authorizeService;
 
     /** @var AuthenticatedUserLoader */
-    private $userLoader;
+    private AuthenticatedUserLoader $userLoader;
 
     public function __construct(AuthorizationLinkService $authorizeService, AuthenticatedUserLoader $userLoader)
     {

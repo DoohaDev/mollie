@@ -12,16 +12,16 @@ class RedirectToMollieOnboardingAfterAuthorization
     /**
      * @var GetOnboardingStatusService
      */
-    private $onboardingStatusService;
+    private GetOnboardingStatusService $onboardingStatusService;
 
     /**
      * @var AuthenticatedUserLoader
      */
-    private $userLoader;
+    private AuthenticatedUserLoader $userLoader;
     /**
      * @var SubmitOnboardingDataService
      */
-    private $submitOnboardingDataService;
+    private SubmitOnboardingDataService $submitOnboardingDataService;
 
     public function __construct(
         GetOnboardingStatusService $onboardingStatusService,

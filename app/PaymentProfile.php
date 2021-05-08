@@ -5,13 +5,13 @@ namespace App;
 class PaymentProfile
 {
     /** @var string */
-    private $id;
+    private string $id;
 
     /** @var string */
-    private $name;
+    private string $name;
 
     /** @var string */
-    private $website;
+    private string $website;
 
     public function __construct(string $id, string $name, string $website)
     {

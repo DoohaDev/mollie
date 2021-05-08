@@ -1323,7 +1323,7 @@ return array(
     'Illuminate\\Database\\Eloquent\\HigherOrderBuilderProxy' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/HigherOrderBuilderProxy.php',
     'Illuminate\\Database\\Eloquent\\JsonEncodingException' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/JsonEncodingException.php',
     'Illuminate\\Database\\Eloquent\\MassAssignmentException' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/MassAssignmentException.php',
-    'Illuminate\\Database\\Eloquent\\Model' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/Model.php',
+    'Illuminate\\Database\\Eloquent\\Model' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/Models.php',
     'Illuminate\\Database\\Eloquent\\ModelNotFoundException' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/ModelNotFoundException.php',
     'Illuminate\\Database\\Eloquent\\QueueEntityResolver' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/QueueEntityResolver.php',
     'Illuminate\\Database\\Eloquent\\RelationNotFoundException' => $vendorDir . '/laravel/framework/src/Illuminate/Database/Eloquent/RelationNotFoundException.php',

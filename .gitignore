@@ -3,7 +3,7 @@
 /hot
 /storage/*.key
 /storage/medialibrary/*
-/vendor
+/vendor/
 /.idea
 /.vscode
 /.vagrant
@@ -12,19 +12,12 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 /pem
+.env
 .env.backup
 .phpunit.result.cache
 google-services.json
 /config/*.json
 **/.DS_Store
-**/.apk
-
-**/1.png
-**/2.png
-**/3.png
-**/b_1.png
-**/b_2.png
-**/borne_pause.png
 
 /*.zip
 

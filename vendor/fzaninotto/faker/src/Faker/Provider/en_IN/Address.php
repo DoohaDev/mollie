@@ -95,7 +95,7 @@ class Address extends \Faker\Provider\Address
         'Goregaon',
         'Hadapsar','Harmada','Hinjewadi',
         'Kormangala','Kharadi',
-        'Marathahalli','Model Town','Mansarovar','Malad',
+        'Marathahalli','Models Town','Mansarovar','Malad',
         'Sodala',
         'Virar','Vikhroli',
         'Yerwada','Yeshwanthpura',

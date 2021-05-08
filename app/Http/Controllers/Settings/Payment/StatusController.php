@@ -16,16 +16,16 @@ use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 class StatusController
 {
     /** @var StatusService */
-    private $onboardingService;
+    private StatusService $onboardingService;
 
     /** @var AuthenticatedUserLoader */
-    private $userLoader;
+    private AuthenticatedUserLoader $userLoader;
 
     /** @var UserPaymentProfileService */
-    private $profileService;
+    private UserPaymentProfileService $profileService;
 
     /** @var PaymentMethodService */
-    private $paymentMethodsService;
+    private PaymentMethodService $paymentMethodsService;
 
     public function __construct(
         StatusService $onboardingService,
@@ -66,8 +66,9 @@ class StatusController
     }
 
     /**
-     * @param string $profileId
+     * @param string|null $profileId
      * @param PaymentProfile[] $profiles
+     * @return PaymentProfile
      */
     private function getSelectedProfile(?string $profileId, array $profiles): PaymentProfile
     {
