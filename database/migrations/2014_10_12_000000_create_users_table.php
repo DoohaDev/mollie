@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->bigIncrements('id');
             $table->string('company_name');
             $table->string('website');
-            $table->string('email')->unique();
+            $table->string('email', 255)->unique();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
